@@ -15,7 +15,7 @@ spec:
     spec:
       containers:
         - name: cloudwatch-agent
-          image: amazon/cloudwatch-agent:1.247346.0b249609
+          image: public.ecr.aws/cloudwatch-agent/cloudwatch-agent:1.247347.6b250880
           #ports:
           #  - containerPort: 8125
           #    hostPort: 8125
